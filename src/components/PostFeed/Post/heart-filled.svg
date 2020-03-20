@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="38px" viewBox="0 0 46 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>heart-filled</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M23.0099808,6.52768751 L26.4371442,3.24009253 C30.9658909,-1.10422465 38.2470284,-1.04431171 42.70002,3.37391182 C47.1530115,7.79213536 47.0915999,14.8955781 42.5628531,19.2398953 L23.0063248,38 L3.43528828,19.2174642 C-1.09244898,14.8721456 -1.15221029,7.76868947 3.30180766,3.35145075 C7.75582561,-1.06578798 15.0369768,-1.12409082 19.5647141,3.2212277 L23.0099808,6.52768751 Z" id="path-1"></path>
+    </defs>
+    <g id="Logos-&amp;-Graphics" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Image" transform="translate(-261.000000, -269.000000)">
+            <g id="heart-filled">
+                <g transform="translate(261.000000, 269.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Glyph-Copy" fill="#FB0000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

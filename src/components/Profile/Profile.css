@@ -1,0 +1,40 @@
+.profile-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.profile-header-text {
+	align-self: center;
+	font-weight: bolder;
+}
+
+.profile-edit {
+	position: absolute;
+	right: 0;
+}
+
+.profile-image-container {
+	position: relative;
+	width: 50%;
+}
+
+.profile-image {
+	width: 100%;
+	height: var(--post-image-height);
+	object-fit: cover;
+	object-position: top;
+	float: left;
+}
+span {
+	font-family: var(--post-header-font);
+}
+
+.profile-info {
+	/* display: flex; */
+	/* float: right; */
+}
+
+.profile-gig-requirements {
+}

@@ -1,0 +1,81 @@
+.post-container {
+	box-sizing: border-box;
+	width: var(--content-width);
+	margin: 0 auto;
+	height: max-content;
+}
+
+.post-image-container {
+	position: relative;
+	width: 100%;
+}
+
+.post-image {
+	width: 100%;
+	height: var(--post-image-height);
+	object-fit: cover;
+	object-position: top;
+}
+
+.post-header {
+	position: absolute;
+	bottom: 0;
+	background-color: #2f2f2f80;
+	width: 100%;
+	text-align: left;
+	padding: 0.5em 1em;
+	display: flex;
+	justify-content: space-between;
+}
+
+.post-header h3 {
+	font-family: var(--post-header-font);
+	display: inline;
+	font-size: 2em;
+	margin: auto 0;
+}
+
+.post-header-icons {
+	display: inline-block;
+	width: max-content;
+}
+
+.post-header-icons img {
+	padding: 0 0.5em;
+}
+
+.show {
+	display: inline;
+	height: max-content;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.post-body {
+	overflow: hidden;
+	height: 0;
+}
+.post-tip {
+	overflow: hidden;
+	height: 0;
+}
+
+.post-body p {
+	font-family: var(--post-body-font);
+	font-size: 2em;
+	padding: 0 40px;
+}
+.button-container {
+	/* display: flex; */
+}
+.post-button-book {
+	width: 100px;
+	margin: 0px 25px;
+	font-size: 1.25em;
+}
+.post-button-tip {
+	width: 100px;
+	margin: 0 25px 0 0;
+	font-size: 1.25em;
+}
