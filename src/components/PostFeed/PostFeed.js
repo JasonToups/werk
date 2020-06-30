@@ -1,6 +1,7 @@
 import React from 'react';
 import Post from './Post/Post';
 import axios from 'axios';
+import './PostFeed.css';
 class PostFeed extends React.Component {
 	state = {
 		posts: [],
@@ -73,7 +74,7 @@ class PostFeed extends React.Component {
 					{this.state.posts.length ? (
 						this.displayPosts(this.state.posts)
 					) : (
-						<h1>No Posts Yet!</h1>
+						<h1 className='noPosts'>Now loading Queens!</h1>
 					)}
 				</section>
 			</>
