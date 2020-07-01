@@ -56,9 +56,9 @@ header {
 
 .overview {
 	display: grid;
-	height: 400px;
+	height: 350px;
 	grid-template-columns: 40% 60%;
-	grid-template-rows: 50vh;
+	grid-template-rows: auto;
 	text-align: left;
 	padding-left: 20px;
 	font-family: 'Roboto', sans-serif;
@@ -88,11 +88,16 @@ header {
 }
 
 .data-col h1 {
-	font-size: 4em;
+	font-size: 3em;
 	font-weight: 100;
 }
 
 .data-col p {
-	font-size: 1.5em;
+	font-size: 1.3em;
 	font-weight: 600;
+}
+
+.queen-or-fan {
+	height: 300px;
+	background-image: linear-gradient(113deg, #fe6c6f 0%, #b40712 99%);
 }

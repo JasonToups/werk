@@ -49,6 +49,7 @@ class Welcome extends Component {
 						</div>
 					</div>
 				</section>
+				<section className='queen-or-fan'></section>
 			</>
 		);
 	}
