@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import { Menu, Image, Button, Icon } from 'semantic-ui-react';
 import axios from 'axios';
 // internal imports
-import Register from './Modal/ModalRegister';
 import Login from './Modal/ModalLogin';
 import CreatePost from '../PostFeed/CreatePost/CreatePost';
 import logo from './Werk-Logo.svg';

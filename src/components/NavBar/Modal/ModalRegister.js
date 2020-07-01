@@ -46,7 +46,7 @@ class Register extends Component {
 	render() {
 		return (
 			<>
-				<Button onClick={this.open}> Sign Up!</Button>
+				<button onClick={this.open}> Sign Up!</button>
 				<Modal open={this.state.show} onClose={this.close}>
 					<Modal.Header>Register for an Account!</Modal.Header>
 					<Modal.Content Form>
