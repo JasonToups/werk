@@ -1,8 +1,18 @@
 button {
-	padding: 10px;
+	width: 150px;
+	height: 50px;
 	color: white;
-	background-color: red;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
-	border-radius: 10px;
-	margin-bottom: 5px;
+	font-size: 1.5em;
+	border-style: none;
+	border-radius: 14px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+	background-color: #ac5fd0;
+	transition: background-color 0.5s;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #7d24a7;
 }
