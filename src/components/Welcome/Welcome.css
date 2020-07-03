@@ -119,11 +119,17 @@ header {
 	padding: 20px;
 }
 
+.queen-or-fan h1 {
+	font-family: 'Quicksand';
+}
+
 .queen-or-fan-detail {
 	display: grid;
 	align-items: top;
 	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 	padding: 10px 0px;
+	font-family: 'Quicksand';
+	font-weight: 600;
 }
 
 .queen-or-fan-detail h1 {
@@ -131,5 +137,5 @@ header {
 	font-family: 'Knewave';
 }
 .queen-or-fan-detail p {
-	padding-bottom: 15px;
+	padding: 5px 25px 15px 25px;
 }
