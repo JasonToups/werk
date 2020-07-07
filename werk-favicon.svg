@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="197px" viewBox="0 0 43 197" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>werk-favicon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="57.5295166%" y1="49.0760976%" x2="42.9725711%" y2="49.0837611%" id="linearGradient-1">
+            <stop stop-color="#D82016" offset="0%"></stop>
+            <stop stop-color="#E02614" offset="8.78378378%"></stop>
+            <stop stop-color="#FE6C6F" offset="31.920397%"></stop>
+            <stop stop-color="#E72812" offset="60.7685811%"></stop>
+            <stop stop-color="#E23830" offset="74.3797508%"></stop>
+            <stop stop-color="#B40712" offset="88.4792019%"></stop>
+            <stop stop-color="#A82F27" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#BC0E14" offset="0.266575169%"></stop>
+            <stop stop-color="#C11219" offset="99.3533573%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="37.4719422%" x2="100%" y2="37.4719422%" id="linearGradient-3">
+            <stop stop-color="#101010" offset="0%"></stop>
+            <stop stop-color="#050505" offset="14.0189448%"></stop>
+            <stop stop-color="#3C3D3F" offset="23.1399549%"></stop>
+            <stop stop-color="#040404" offset="59.8566633%"></stop>
+            <stop stop-color="#828388" offset="62.9602611%"></stop>
+            <stop stop-color="#000000" offset="84.3820554%"></stop>
+            <stop stop-color="#000000" offset="93.1168177%"></stop>
+            <stop stop-color="#302E30" offset="100%"></stop>
+        </linearGradient>
+        <path d="M8.43622858,52.5263694 C13.3218917,52.0991915 17.9879865,51.8856026 22.4345132,51.8856026 C26.7344285,51.8856026 31.0343439,52.0853388 35.3342592,52.4848112 C37.9054164,52.7236742 39.8717426,54.8811441 39.8717426,57.4633727 L39.8717426,126.885603 L39.8717426,126.885603 L3.87174262,126.885603 L3.87174262,57.5073735 C3.87173523,54.9147426 5.85345137,52.7521945 8.43622858,52.5263694 Z" id="path-4"></path>
+        <filter x="-12.5%" y="-6.0%" width="125.0%" height="112.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="2" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="4" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="57.7037296%" y1="49.0760976%" x2="42.8099751%" y2="49.0837611%" id="linearGradient-6">
+            <stop stop-color="#D82016" offset="0%"></stop>
+            <stop stop-color="#E02614" offset="8.78378378%"></stop>
+            <stop stop-color="#FE6C6F" offset="31.920397%"></stop>
+            <stop stop-color="#E72812" offset="60.7685811%"></stop>
+            <stop stop-color="#E23830" offset="74.3797508%"></stop>
+            <stop stop-color="#B40712" offset="88.4792019%"></stop>
+            <stop stop-color="#A82F27" offset="100%"></stop>
+        </linearGradient>
+        <path d="M4.17863667,90.2366388 C9.70474856,89.9436148 15.3511074,89.7971027 21.1177131,89.7971027 C26.9436437,89.7971027 32.7695742,89.9466448 38.5955048,90.245729 C40.7221469,90.3548914 42.3904404,92.1110265 42.3904404,94.2404684 L42.3904404,191.797103 C42.3904404,194.558526 40.1518641,196.797103 37.3904404,196.797103 L5.39044039,196.797103 C2.62901664,196.797103 0.390440392,194.558526 0.390440392,191.797103 L0.390440392,94.231024 C0.39044373,92.1041933 2.05478971,90.3492566 4.17863667,90.2366388 Z" id="path-7"></path>
+        <filter x="-8.3%" y="-3.3%" width="116.7%" height="106.5%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="3" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="werk-favicon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Lipstick---Red-Lipstick-Gradient-Copy">
+            <path d="M9.26166177,69.4361128 L35.2616618,69.4361128 C35.2616618,52.9607264 35.2616618,41.8307817 35.2616618,36.0462786 C35.2616618,21.057297 33.3254916,4.84594331 28.8999596,2.6564461 C27.7935842,2.10907554 26.6871937,2.6564461 25.0276192,3.47750756 C22.1411082,4.90558626 20.7352058,6.69760233 18.6659171,8.40387628 C17.0063426,9.77231204 14.7738818,11.6137252 12.5808107,15.5197422 C9.81485326,20.446111 10.054418,30.2781694 9.81485326,36.0462786 C9.81485326,46.0814742 9.6304561,57.2114189 9.26166177,69.4361128 Z" id="Lipstick" fill="url(#linearGradient-1)"></path>
+            <path d="M20.4408866,22.454084 C22.4274632,22.5662338 24.5649693,14.206393 24.2754483,9.20791527 C23.9859274,4.20943752 22.1000487,-0.433741071 20.1134722,-0.545890784 C18.1268956,-0.658040497 16.7702939,6.33880316 17.0598149,11.3372809 C17.3493359,16.3357587 18.4543101,22.3419343 20.4408866,22.454084 Z" id="Lipstick-Tip" fill="url(#linearGradient-2)" transform="translate(20.661415, 10.953989) rotate(43.000000) translate(-20.661415, -10.953989) "></path>
+            <g id="Lipstick-Shaft---Black">
+                <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+            </g>
+            <g id="Lipstick-Body---Red">
+                <use fill="url(#linearGradient-6)" fill-rule="evenodd" xlink:href="#path-7"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+            </g>
+        </g>
+    </g>
+</svg>

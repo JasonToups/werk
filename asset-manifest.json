@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/werk/static/css/main.97a5ea18.chunk.css",
+    "main.js": "/werk/static/js/main.000c0e5c.chunk.js",
+    "main.js.map": "/werk/static/js/main.000c0e5c.chunk.js.map",
+    "runtime-main.js": "/werk/static/js/runtime-main.2edf6739.js",
+    "runtime-main.js.map": "/werk/static/js/runtime-main.2edf6739.js.map",
+    "static/css/2.330c2626.chunk.css": "/werk/static/css/2.330c2626.chunk.css",
+    "static/js/2.33362b38.chunk.js": "/werk/static/js/2.33362b38.chunk.js",
+    "static/js/2.33362b38.chunk.js.map": "/werk/static/js/2.33362b38.chunk.js.map",
+    "index.html": "/werk/index.html",
+    "precache-manifest.c4b1bdac736d6c41684c4f6d74e32af2.js": "/werk/precache-manifest.c4b1bdac736d6c41684c4f6d74e32af2.js",
+    "service-worker.js": "/werk/service-worker.js",
+    "static/css/2.330c2626.chunk.css.map": "/werk/static/css/2.330c2626.chunk.css.map",
+    "static/css/main.97a5ea18.chunk.css.map": "/werk/static/css/main.97a5ea18.chunk.css.map",
+    "static/js/2.33362b38.chunk.js.LICENSE.txt": "/werk/static/js/2.33362b38.chunk.js.LICENSE.txt",
+    "static/media/Werk-Logo.svg": "/werk/static/media/Werk-Logo.79ae476b.svg",
+    "static/media/semantic.min.css": "/werk/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/dollar-empty.svg": "/werk/static/media/dollar-empty.39235e94.svg",
+    "static/media/dollar-filled.svg": "/werk/static/media/dollar-filled.c5abad70.svg",
+    "static/media/heart-empty.svg": "/werk/static/media/heart-empty.1ed115c7.svg",
+    "static/media/heart-filled.svg": "/werk/static/media/heart-filled.5427151c.svg",
+    "static/media/Welcome.css": "/werk/static/media/ineedahero-edit.7f054c2a.gif",
+    "static/media/index.css": "/werk/static/media/repeatablePattern-red.783543eb.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2edf6739.js",
+    "static/css/2.330c2626.chunk.css",
+    "static/js/2.33362b38.chunk.js",
+    "static/css/main.97a5ea18.chunk.css",
+    "static/js/main.000c0e5c.chunk.js"
+  ]
+}
