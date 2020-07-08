@@ -1,3 +1,14 @@
+# Welcome to Werk!
+This is a gig economy app for drag queens & their fans. 
+
+To start the frontend:
+
+    npm start
+
+To update the build on the master branch:
+
+    npm run deploy
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
