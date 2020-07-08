@@ -45,7 +45,7 @@ class Login extends Component {
 	render() {
 		return (
 			<>
-				<Button onClick={this.open}> Log In!</Button>
+				<h3 onClick={this.open}> Log In!</h3>
 				<Modal open={this.state.show} onClose={this.close}>
 					<Modal.Header>Log In!</Modal.Header>
 					<Modal.Content Form>

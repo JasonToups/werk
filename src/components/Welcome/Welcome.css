@@ -13,13 +13,13 @@ header {
 			rgba(254, 108, 111, 0.6) 0%,
 			rgba(180, 7, 18, 0.6) 99%
 		),
-		url('./ineedahero-edit.gif');
+		url('./gigi-madonna-1.gif');
 	background: linear-gradient(
 			118deg,
-			rgba(245, 113, 115, 0.6) 0%,
-			rgba(180, 7, 18, 0.6) 99%
+			rgba(245, 113, 115, 0.2) 0%,
+			rgba(180, 7, 18, 0.7) 99%
 		),
-		url('./ineedahero-edit.gif'); /* The least supported option. */
+		url('./gigi-madonna-1.gif'); /* The least supported option. */
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: grid;
