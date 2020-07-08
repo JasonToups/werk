@@ -18,8 +18,8 @@ jobs:
       - name: Install Packages
         run: npm install
       - name: Deploy to GH Pages
-        run: git config --global user.name "JasonToups"
-          git config --global user.email me@jasontoups.com
+        run: git config --global user.name "jason-toups"
+          git config --global user.email "me@jasontoups.com"
           git remote set-url origin https://9a6d3f04849450392b32ced92236e22d86af67e2@github.com/jasontoups/werk.git
           npm run deploy
       - name: Deploy Confirmation
