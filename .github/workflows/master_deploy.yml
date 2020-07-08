@@ -24,6 +24,6 @@ jobs:
       - name: Set Github Origin
         run: git remote set-url origin https://github.com/JasonToups/werk.git
       - name: Deploy to GH Pages
-        run: npm run deploy
+        run: NODE_DEBUG=npm run deploy
       - name: Deploy Confirmation
         run: echo "Deploy Complete!"
