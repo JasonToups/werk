@@ -20,7 +20,7 @@ jobs:
       - name: Deploy to GH Pages
         run: git config --global user.name "jason-toups"
           git config --global user.email "me@jasontoups.com"
-          git remote set-url origin https://9a6d3f04849450392b32ced92236e22d86af67e2@github.com/jasontoups/werk.git
+          git remote set-url origin https://9a6d3f04849450392b32ced92236e22d86af67e2@github.com/jason-toups/werk.git
           npm run deploy
       - name: Deploy Confirmation
         run: echo "Deploy Complete!"
