@@ -21,7 +21,7 @@ When new commits are pushed to the master branch, the [GitHub Action MasterDeplo
 - Starts Node environment
 - Installs Node packages with `npm-install`
 - Logs into GitHub using [Secrets](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets)
-- Runs the [gh-pages](https://www.npmjs.com/package/gh-pages) deploy script
+- Runs the [gh-pages](https://www.npmjs.com/package/gh-pages) deploy script `NODE_DEBUG=gh-pages npm run deploy`
 - Sends a confirmation message "Deploy Complete!"
 
 ### Current status of Action
