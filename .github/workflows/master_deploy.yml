@@ -22,7 +22,7 @@ jobs:
       - name: Set Github Email
         run: git config --global user.email "me@jasontoups.com"
       - name: Set Github Origin
-        run: git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/JasonToups/werk.git
+        run: git remote set-url origin https://${{ secrets.TOKEN }}@github.com/JasonToups/werk.git
       - name: Deploy to GH Pages
         run: NODE_DEBUG=gh-pages npm run deploy
       - name: Deploy Confirmation
