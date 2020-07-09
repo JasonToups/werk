@@ -17,7 +17,7 @@
         'email': 'me@jasontoups.com',
         'local_dir': 'docs',
         'skip_cleanup': true,
-        'token': '$GITHUB_TOKEN',
+        'token': '$TOKEN',
         'keep_history': true,
         'target_branch': 'master',
       },
