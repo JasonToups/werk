@@ -13,7 +13,7 @@
         'strategy': 'git',
         'repo': 'github.com/JasonToups/werk',
         'on': { 'branch': 'master' },
-        'name': 'jason-toups',
+        'name': 'jasontoups',
         'email': 'me@jasontoups.com',
         'local_dir': 'docs',
         'skip_cleanup': true,
