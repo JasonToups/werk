@@ -6,15 +6,16 @@
   'cache': { 'directories': ['node_modules'] },
   'install': ['npm install'],
   'script': ['npm run build'],
-  'deploy': [
+  'deploy':
+    [
       {
         'provider': 'pages',
         'strategy': 'git',
-        'repo': 'github.com/JasonToups/werk',
+        'repo': 'JasonToups/werk',
         'on': { 'branch': 'master' },
         'name': 'jasontoups',
         'email': 'me@jasontoups.com',
-        # 'local_dir': 'docs',
+        'local_dir': 'docs',
         'skip_cleanup': true,
         'token': '$GITHUB_TOKEN',
         'keep_history': true,
