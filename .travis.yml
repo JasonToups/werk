@@ -12,7 +12,7 @@
         'provider': 'pages',
         'strategy': 'git',
         'repo': 'JasonToups/werk',
-        'on': { 'branch': 'master' },
+        'on': { 'branch': 'gh-pages' },
         'name': 'jasontoups',
         'email': 'me@jasontoups.com',
         'local_dir': 'docs',

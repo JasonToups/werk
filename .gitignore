@@ -14,8 +14,9 @@
 # misc
 .DS_Store
 
+# environment files
 
-
+.env
 .env.test
 .env.local
 .env.development.local
