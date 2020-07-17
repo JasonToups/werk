@@ -8,7 +8,7 @@ export default class DisplayImage extends Component {
 		e.preventDefault();
 		this.setState({ message: 'Loading...' });
 		const filename = document.querySelector('#filename').value;
-		const generateGetUrl = 'http://localhost:3000/generate-get-url';
+		const generateGetUrl = `${process.env.REACT_APP_API_URL}/aws/generate-get-url`;
 		const options = {
 			params: {
 				Key: filename,

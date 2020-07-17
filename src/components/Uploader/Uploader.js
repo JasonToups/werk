@@ -20,7 +20,7 @@ export default class Uploader extends Component {
 		this.setState({ message: 'Uploading...' });
 		const contentType = file.type; // eg. image/jpeg or image/svg+xml
 
-		const generatePutUrl = 'http://localhost:4000/api/v1/aws/generate-put-url';
+		const generatePutUrl = `${process.env.REACT_APP_API_URL}/aws/generate-put-url`;
 		const options = {
 			params: {
 				Key: file.name,
