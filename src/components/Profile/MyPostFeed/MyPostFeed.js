@@ -69,6 +69,7 @@ class MyPostFeed extends React.Component {
 		return (
 			<>
 				<section className='post-feed'>
+					<h1>My Posts</h1>
 					{this.state.posts.length ? (
 						this.displayPosts(this.state.posts)
 					) : (
