@@ -83,6 +83,7 @@ class ProfileModal extends Component {
 		this.setState({ show: false });
 	};
 
+	// TODO add the S3 Image Uploader to the Form.
 	render() {
 		return (
 			<>

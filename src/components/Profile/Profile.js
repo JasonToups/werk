@@ -53,26 +53,28 @@ class Profile extends Component {
 					<h1 className='profile-header-text'>Profile</h1>
 					<ProfileModal getProfile={this.getProfile} />
 				</div>
-				<br></br>
-				<hr></hr>
-				{this.state.profile.userImage ? (
-					<div className='profile-image-container'>
-						<img
-							className='profile-image'
-							src={this.state.profile.userImage}
-							alt={this.state.profile.name}
-						/>
+				<div className='profile'>
+					<br></br>
+					<hr></hr>
+					{this.state.profile.userImage ? (
+						<div className='profile-image-container'>
+							<img
+								className='profile-image'
+								src={this.state.profile.userImage}
+								alt={this.state.profile.name}
+							/>
+						</div>
+					) : (
+						''
+					)}
+					<div className='profile-info'>
+						<h1>
+							Name: <span>{this.state.profile.name}</span>
+						</h1>
+						<h3>Type: {this.state.profile.userType}</h3>
+						<h3>Email: {this.state.profile.email}</h3>
+						<h3>HomeCity: {this.state.profile.homeCity}</h3>
 					</div>
-				) : (
-					''
-				)}
-				<div className='profile-info'>
-					<h1>
-						Name: <span>{this.state.profile.name}</span>
-					</h1>
-					<h3>Type: {this.state.profile.userType}</h3>
-					<h3>Email: {this.state.profile.email}</h3>
-					<h3>HomeCity: {this.state.profile.homeCity}</h3>
 				</div>
 				{this.state.profile.userType === 'Queen' ? (
 					<>

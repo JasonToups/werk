@@ -5,6 +5,13 @@
 	position: relative;
 }
 
+.profile {
+	color: white;
+	max-width: 700px;
+	margin: auto;
+	background: black;
+}
+
 .profile-header-text {
 	align-self: center;
 	font-weight: bolder;
@@ -20,6 +27,9 @@
 	width: 50%;
 }
 
+.profile-info {
+}
+
 .profile-image {
 	width: 100%;
 	height: var(--post-image-height);
@@ -31,10 +41,6 @@ span {
 	font-family: var(--post-header-font);
 }
 
-.profile-info {
-	/* display: flex; */
-	/* float: right; */
-}
-
 .profile-gig-requirements {
+	color: white;
 }
