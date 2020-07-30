@@ -1,6 +1,32 @@
 # Welcome to Werk!
 
-This is a gig economy app for drag queens & their fans.
+This is a gig economy app for Drag Queens & their Fans.
+
+![Werk! Tip, follow or book your favorite drag queens](https://raw.githubusercontent.com/JasonToups/werk/master/Design/Graphic%20Design/Werk-Logo%20Large.png)
+
+On Werk, you can _tip_, _follow_ or _book_ your favorite Drag Queens.
+
+Can't come out to a drag show? Tip them from the comfort of your home.
+
+Need a Queen for your event? Send them a booking request.
+
+Head to the site now, https://jasontoups.github.io/werk/ to view my work-in-progress!
+
+If you would like to see how the backend was built, I have it in a separate repo. [Werk-Backend](https://github.com/JasonToups/werk-backend)
+
+## Technologies Used
+
+- React
+- Semantic UI React
+- Axios
+- Body Parser
+- Cors
+- JSON Web Token for Auth
+- AWS S3 (In progress)
+
+## Purpose
+
+I started working on this as my capstone project for the software engineering immersive at General Assembly San Francisco.
 
 ## Starting the Frontend
 
@@ -16,6 +42,8 @@ You will also see any lint errors in the console.
 
 When new commits are pushed to the master branch, deploy a build to the gh-pages branch, run:
 `NODE_DEBUG=gh-pages npm run deploy`
+
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
