@@ -1,4 +1,4 @@
-![Werk! Tip, follow or book your favorite drag queens](https://raw.githubusercontent.com/JasonToups/werk/master/Design/Graphic%20Design/Werk-Logo%20Small.png)
+[![Werk! Tip, follow or book your favorite drag queens](https://raw.githubusercontent.com/JasonToups/werk/master/Design/Graphic%20Design/Werk-Logo%20Small.png)](https://jasontoups.github.io/werk/)
 
 ## _A gig economy app for Drag Queens & their Fans._
 
