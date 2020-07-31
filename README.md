@@ -1,20 +1,22 @@
-# Welcome to Werk!
+![Werk! Tip, follow or book your favorite drag queens](https://raw.githubusercontent.com/JasonToups/werk/master/Design/Graphic%20Design/Werk-Logo%20Small.png)
 
-This is a gig economy app for Drag Queens & their Fans.
-
-![Werk! Tip, follow or book your favorite drag queens](https://raw.githubusercontent.com/JasonToups/werk/master/Design/Graphic%20Design/Werk-Logo%20Large.png)
+## _A gig economy app for Drag Queens & their Fans._
 
 On Werk, you can _tip_, _follow_ or _book_ your favorite Drag Queens.
 
-Can't come out to a drag show? Tip them from the comfort of your home.
+Can't come out to a drag show?
 
-Need a Queen for your event? Send them a booking request.
+- **Tip** them from the comfort of your home.
+
+Need a Queen for your event?
+
+- Send them a **gig request**.
 
 Head to the site now, https://jasontoups.github.io/werk/ to view my work-in-progress!
 
 If you would like to see how the backend was built, I have it in a separate repo. [Werk-Backend](https://github.com/JasonToups/werk-backend)
 
-## Technologies Used
+# Technologies Used
 
 - React
 - Semantic UI React
@@ -22,11 +24,29 @@ If you would like to see how the backend was built, I have it in a separate repo
 - Body Parser
 - Cors
 - JSON Web Token for Auth
+- CSS Grid for responsive layout
+- Sketch & Zeplin for Layouts & Graphic Design
 - AWS S3 (In progress)
 
-## Purpose
+# Purpose
 
-I started working on this as my capstone project for the software engineering immersive at General Assembly San Francisco.
+I started working on this as my capstone project for the software engineering immersive at General Assembly San Francisco. I've admired drag performers since I saw [The Adventures of Priscilla, Queen of the Desert](https://www.imdb.com/title/tt0109045/) in high school.
+
+So I wanted to make something that expresses my love of the artform and gives back to the community by offering them a platform to share their work, and get tipped by their fans.
+
+Also, I chose a tech stack that I wanted to learn, and created features that would utilize the technologies I wanted to specialize in, namely React, React-Redux (coming), and AWS S3 (in progress)
+
+# Feature Roadmap
+
+I created a [Kanban Board Template](https://trello.com/b/AKwwp4Zt/better-kanban-board) for Trello that I use when I start any new project.
+
+The board I use to track the features and progress of this project is on the [Trello - Werk Board](https://trello.com/b/ecR8XOwH/werk).
+
+Currently I'm working with AWS S3 for Image hosting for the Queen's Profile Pics, and Post Pics.
+
+Once I get that working, I plan on tackling making gig requests between users.
+
+# Scripts
 
 ## Starting the Frontend
 
@@ -41,75 +61,7 @@ You will also see any lint errors in the console.
 ## Creating New Builds
 
 When new commits are pushed to the master branch, deploy a build to the gh-pages branch, run:
-`NODE_DEBUG=gh-pages npm run deploy`
+
+    NODE_DEBUG=gh-pages npm run deploy
 
 ---
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
