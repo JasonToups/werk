@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import { Button, Modal, Form, Input, Icon } from 'semantic-ui-react';
 import axios from 'axios';
 import { withRouter } from 'react-router-dom';
@@ -14,65 +14,65 @@ class CreatePost extends Component {
     show: false,
   };
 
-
   componentDidMount() {
     const userId = localStorage.getItem('uid');
 
-    axios.get(`${process.env.REACT_APP_API_URL}/users/${userId}`, { withCredentials: true })
+    axios
+      .get(`${process.env.REACT_APP_API_URL}/users/${userId}`, {
+        withCredentials: true,
+      })
       .then(res => {
         console.log(res);
         this.setState({
           user_submitted_from: userId,
           name: res.data.data.name,
-        })
-        console.log(this.state.user_submitted_from)
-        console.log(this.state.name)
+        });
+        console.log(this.state.user_submitted_from);
+        console.log(this.state.name);
       })
       .catch(err => {
         console.log(err.response);
-      })
+      });
   }
 
   handleChange = event => {
     this.setState({
-      [event.target.name]: event.target.value
+      [event.target.name]: event.target.value,
     });
   };
 
   handleSubmit = event => {
     event.preventDefault();
     axios
-      .post(`${process.env.REACT_APP_API_URL}/posts`, this.state, { withCredentials: true })
+      .post(`${process.env.REACT_APP_API_URL}/posts`, this.state, {
+        withCredentials: true,
+      })
       .then(res => {
         console.log(res);
-        this.close()
-        this.props.setCurrentUser(res.data.data)
+        this.close();
+        this.props.setCurrentUser(res.data.data);
         this.props.history.push('/');
-
       })
       .catch(err => {
         console.log(err.response);
-      })
+      });
   };
 
   open = () => {
-    this.setState({ show: true })
-  }
+    this.setState({ show: true });
+  };
 
   close = () => {
-    this.setState({ show: false })
-  }
+    this.setState({ show: false });
+  };
 
   render() {
     return (
       <>
-        <Button
-          icon
-          color='green'
-          onClick={this.open}><Icon name="plus" /></Button>
-        <Modal
-          open={this.state.show}
-          onClose={this.close}>
+        <Button icon color='black' onClick={this.open}>
+          Add Post
+        </Button>
+        <Modal open={this.state.show} onClose={this.close}>
           <Modal.Header>Create a Post!</Modal.Header>
           <Modal.Content Form>
             <Form onSubmit={this.handleSubmit}>
@@ -109,19 +109,14 @@ class CreatePost extends Component {
             </Form>
           </Modal.Content>
           <Modal.Actions>
-            <Button
-              color='green'
-              onClick={this.handleSubmit}>
+            <Button color='green' onClick={this.handleSubmit}>
               Create Post
-              </Button>
+            </Button>
           </Modal.Actions>
         </Modal>
       </>
     );
   }
 }
-
-
-
 
 export default withRouter(CreatePost);

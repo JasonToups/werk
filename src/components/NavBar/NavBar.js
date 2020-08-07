@@ -10,79 +10,80 @@ import logo from './Werk-Logo.svg';
 import './NavBar.css';
 
 class NavBar extends Component {
-	state = {
-		// sets default active item
-		activeItem: 'profile',
-		userType: '',
-	};
-	// passes props to the navbar - e=event
-	handleItemClick = (e, props) => this.setState({ activeItem: props.name });
+  state = {
+    // sets default active item
+    activeItem: 'profile',
+    userType: '',
+  };
+  // passes props to the navbar - e=event
+  handleItemClick = (e, props) => this.setState({ activeItem: props.name });
 
-	componentDidMount() {
-		const userId = localStorage.getItem('uid');
+  componentDidMount() {
+    const userId = localStorage.getItem('uid');
 
-		if (userId) {
-			axios
-				.get(`${process.env.REACT_APP_API_URL}/users/${userId}`, {
-					withCredentials: true,
-				})
-				.then(res => {
-					console.log(res);
-					this.setState({
-						userType: res.data.data.userType,
-					});
-					console.log(this.state.userType);
-				})
-				.catch(err => {
-					console.log(err.response);
-				});
-		}
-	}
+    if (userId) {
+      axios
+        .get(`${process.env.REACT_APP_API_URL}/users/${userId}`, {
+          withCredentials: true,
+        })
+        .then(res => {
+          console.log(res);
+          this.setState({
+            userType: res.data.data.userType,
+          });
+          console.log(this.state.userType);
+        })
+        .catch(err => {
+          console.log(err.response);
+        });
+    }
+  }
 
-	render = props => {
-		// console.log(this.props)
-		const { activeItem } = this.state;
-		return (
-			<div className='navbar'>
-				<Menu inverted>
-					<Menu.Item header>
-						<Image src={logo} as='a' size='small' href='/werk'></Image>
-					</Menu.Item>
-					<Menu.Menu position='right'>
-						{this.props.currentUser ? (
-							<>
-								{this.state.userType === 'Queen' ? (
-									<Menu.Item>
-										<CreatePost />
-									</Menu.Item>
-								) : (
-									''
-								)}
-								<Menu.Item>
+  render = props => {
+    // console.log(this.props)
+    const { activeItem } = this.state;
+    return (
+      <div className='navbar'>
+        <Menu inverted>
+          <Menu.Item header>
+            <Image src={logo} as='a' size='small' href='/werk'></Image>
+          </Menu.Item>
+          <Menu.Menu position='right'>
+            {this.props.currentUser ? (
+              <>
+                {this.state.userType === 'Queen' ? (
+                  <Menu.Item>
+                    <CreatePost />
+                  </Menu.Item>
+                ) : (
+                  ''
+                )}
+                {/* TODO restore the mail menu item when messaging works.
+                  <Menu.Item>
 									<Button icon color='black' onClick={this.handleItemClick}>
 										<Icon size='large' name='mail' />
 									</Button>
-								</Menu.Item>
-								<Menu.Item name='profile' onClick={this.handleItemClick}>
-									<Link to='/werk/profile'>Profile</Link>
-								</Menu.Item>
-								<Menu.Item
-									active={activeItem === 'logout'}
-									onClick={this.props.logout}>
-									<Link to='/werk'>Logout</Link>
-								</Menu.Item>
-							</>
-						) : (
-							<>
-								<Menu.Item>
-									<Login setCurrentUser={this.props.setCurrentUser} />
-								</Menu.Item>
-							</>
-						)}
-					</Menu.Menu>
-				</Menu>
-			</div>
-		);
-	};
+								</Menu.Item> */}
+                <Menu.Item name='profile' onClick={this.handleItemClick}>
+                  <Link to='/werk/profile'>Profile</Link>
+                </Menu.Item>
+                <Menu.Item
+                  active={activeItem === 'logout'}
+                  onClick={this.props.logout}>
+                  <Link to='/werk'>Logout</Link>
+                </Menu.Item>
+              </>
+            ) : (
+              <>
+                <Menu.Item>
+                  <Login setCurrentUser={this.props.setCurrentUser} />
+                </Menu.Item>
+              </>
+            )}
+          </Menu.Menu>
+        </Menu>
+      </div>
+    );
+  };
 }
 export default NavBar;
