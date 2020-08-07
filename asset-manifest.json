@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "https://jasontoups.github.io/werk/static/css/main.70c325af.chunk.css",
-    "main.js": "https://jasontoups.github.io/werk/static/js/main.5b052e46.chunk.js",
-    "main.js.map": "https://jasontoups.github.io/werk/static/js/main.5b052e46.chunk.js.map",
+    "main.css": "https://jasontoups.github.io/werk/static/css/main.ef95d38a.chunk.css",
+    "main.js": "https://jasontoups.github.io/werk/static/js/main.6e04044a.chunk.js",
+    "main.js.map": "https://jasontoups.github.io/werk/static/js/main.6e04044a.chunk.js.map",
     "runtime-main.js": "https://jasontoups.github.io/werk/static/js/runtime-main.0dbb3b1e.js",
     "runtime-main.js.map": "https://jasontoups.github.io/werk/static/js/runtime-main.0dbb3b1e.js.map",
     "static/css/2.aeef6221.chunk.css": "https://jasontoups.github.io/werk/static/css/2.aeef6221.chunk.css",
     "static/js/2.98b13e5a.chunk.js": "https://jasontoups.github.io/werk/static/js/2.98b13e5a.chunk.js",
     "static/js/2.98b13e5a.chunk.js.map": "https://jasontoups.github.io/werk/static/js/2.98b13e5a.chunk.js.map",
     "index.html": "https://jasontoups.github.io/werk/index.html",
-    "precache-manifest.a21ed9f7d8fc2843a25d3c8d90038ec8.js": "https://jasontoups.github.io/werk/precache-manifest.a21ed9f7d8fc2843a25d3c8d90038ec8.js",
+    "precache-manifest.fc0a507e6286fc152a642ae0e6762d35.js": "https://jasontoups.github.io/werk/precache-manifest.fc0a507e6286fc152a642ae0e6762d35.js",
     "service-worker.js": "https://jasontoups.github.io/werk/service-worker.js",
     "static/css/2.aeef6221.chunk.css.map": "https://jasontoups.github.io/werk/static/css/2.aeef6221.chunk.css.map",
-    "static/css/main.70c325af.chunk.css.map": "https://jasontoups.github.io/werk/static/css/main.70c325af.chunk.css.map",
+    "static/css/main.ef95d38a.chunk.css.map": "https://jasontoups.github.io/werk/static/css/main.ef95d38a.chunk.css.map",
     "static/js/2.98b13e5a.chunk.js.LICENSE.txt": "https://jasontoups.github.io/werk/static/js/2.98b13e5a.chunk.js.LICENSE.txt",
     "static/media/Werk-Logo.svg": "https://jasontoups.github.io/werk/static/media/Werk-Logo.79ae476b.svg",
     "static/media/semantic.min.css": "https://jasontoups.github.io/werk/static/media/outline-icons.ef60a4f6.woff",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.0dbb3b1e.js",
     "static/css/2.aeef6221.chunk.css",
     "static/js/2.98b13e5a.chunk.js",
-    "static/css/main.70c325af.chunk.css",
-    "static/js/main.5b052e46.chunk.js"
+    "static/css/main.ef95d38a.chunk.css",
+    "static/js/main.6e04044a.chunk.js"
   ]
 }
