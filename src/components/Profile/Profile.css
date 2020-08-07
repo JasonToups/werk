@@ -1,53 +1,56 @@
 .profile-header {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .profile {
-	color: white;
-	max-width: 700px;
-	margin: auto;
-	background: RGBA(26, 26, 27, 0.5);
-	display: grid;
-	grid-template-columns: auto auto;
+  color: white;
+  max-width: 700px;
+  margin: auto;
+  background: RGBA(26, 26, 27, 0.5);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 'profileImage profileInfo';
 }
 
 .profile-header-text {
-	align-self: center;
-	font-weight: bolder;
+  align-self: center;
+  font-weight: bolder;
 }
 
 .profile-edit {
-	position: absolute;
-	right: 0;
+  position: absolute;
+  right: 0;
 }
 
 .profile-image-container {
-	position: relative;
-	width: 100%;
+  grid-area: profileImage;
+  /* position: relative; */
+  /* width: 100%; */
 }
 
 .profile-info {
-	padding: 20px 5px 0 5px;
+  grid-area: profileInfo;
+  padding: 20px 5px 0 5px;
 }
 
 .profile-image {
-	width: 100%;
-	min-width: 200px;
-	height: var(--post-image-height);
-	object-fit: cover;
-	object-position: top;
-	float: left;
+  width: 100%;
+  min-width: 200px;
+  height: var(--post-image-height);
+  object-fit: cover;
+  object-position: top;
+  float: left;
 }
 span {
-	font-family: var(--post-header-font);
+  font-family: var(--post-header-font);
 }
 
 .profile-gig-requirements {
-	margin: auto;
-	align-items: left;
-	color: white;
-	max-width: 700px;
+  margin: auto;
+  align-items: left;
+  color: white;
+  max-width: 700px;
 }
